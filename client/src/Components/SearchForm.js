@@ -21,7 +21,7 @@ const SearchForm = props => {
   };
 
   return (
-    <section>
+    <section className="search">
       <form className="searchForm">
         <input
           type="text"
