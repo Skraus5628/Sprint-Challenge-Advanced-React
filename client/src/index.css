@@ -17,22 +17,31 @@ code {
   display: flex;
   flex-wrap: wrap;
   padding: 2%;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .player {
-  border: 2px solid green;
-  width: 110px;
+  border: 2px solid rgb(59, 255, 59);
+  width: 150px;
   margin: 2%;
+  box-shadow: 0px 2px 10px -4px black;
+  text-align: center;
+ 
 }
 
 .navbar {
-  background-color: rgb(41, 95, 204);
+  background-color: rgb(0, 0, 0);
   border: none;
+  text-align: center;
 }
 
 .dark-mode {
-  color: #fff;
+  color: ghostwhite;
   background-color: #313843;
+ 
+  
 }
 
 .dark-mode__toggle {
@@ -42,6 +51,7 @@ code {
   height: 20px;
   position: relative;
   width: 40px;
+  margin-left: 100px;
 }
 
 .toggle {
@@ -63,10 +73,17 @@ code {
   border-bottom: 1px solid rgb(221, 221, 221);
   display: flex;
   height: 70px;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0%;
   width: 100%;
   -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
-  box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px 2px 10px -4px black;
+}
+
+
+h1{
+  text-shadow: 2px 2px indigo;
+  text-align: center;
+  color: ghostwhite;
 }
